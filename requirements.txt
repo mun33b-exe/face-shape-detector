@@ -1,0 +1,28 @@
+# Core ML and Computer Vision Libraries
+opencv-python>=4.5.0
+numpy>=1.21.0
+Pillow>=8.0.0
+
+# Face recognition libraries (install these separately if needed)
+# dlib  # May require Visual Studio Build Tools on Windows
+# face-recognition  # Depends on dlib
+# mediapipe>=0.8.0  # May have version compatibility issues
+
+# Image Processing
+scipy>=1.7.0
+scikit-image>=0.18.0
+
+# Data Handling
+pandas>=1.3.0
+matplotlib>=3.5.0
+
+# Web Interface (Optional)
+streamlit>=1.0.0
+flask>=2.0.0
+
+# Utilities
+requests>=2.25.0
+tqdm>=4.60.0
+
+# For dataset downloading
+# gdown>=4.0.0
