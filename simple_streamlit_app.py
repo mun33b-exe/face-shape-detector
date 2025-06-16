@@ -415,7 +415,7 @@ def main():
                         st.info(f"📊 Final test accuracy: {final_accuracy:.2%}")
                         
                         # Refresh the page to load the new model
-                        st.experimental_rerun()
+                        st.rerun()
                         
                     except Exception as e:
                         st.error(f"❌ Training failed: {e}")
